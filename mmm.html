@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="fr" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Brain | Où la Créativité Devient Culture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        /* Hide scrollbar for gallery but keep functionality */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+        /* Replace these files with your own images in the Mop folder */
+        .service-bg-production { background-image: url('production.jpg'); }
+        .service-bg-creative { background-image: url('creative.jpg'); }
+        .service-bg-branding { background-image: url('branding.jpg'); }
+        .service-bg-cultural { background-image: url('culture.jpg'); }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-50 antialiased selection:bg-fuchsia-500/30 selection:text-fuchsia-100 overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-zinc-950/70 backdrop-blur-xl border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="text-lg font-semibold tracking-tighter text-white flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-white/20 border border-white/20 overflow-hidden flex items-center justify-center">
+                    <img src="Creara.jpeg" alt="Creative Brain Logo" class="w-full h-full object-contain">
+                </div>
+                <span>CREATIVE BRAIN</span>
+            </a>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
+                <a href="#about" class="hover:text-white transition-colors">À propos</a>
+                <a href="#festivals" class="hover:text-white transition-colors">Festivals</a>
+                <a href="#services" class="hover:text-white transition-colors">Services</a>
+                <a href="#contact" class="hover:text-white transition-colors">Contact</a>
+            </div>
+            <a href="#work-with-us" class="hidden md:inline-flex h-9 items-center justify-center rounded-full bg-white text-zinc-950 px-4 text-sm font-medium transition-transform hover:scale-105">
+                Rejoindre le Mouvement
+            </a>
+            <button class="md:hidden text-zinc-400 hover:text-white">
+                <iconify-icon icon="solar:hamburger-menu-linear" stroke-width="1.5" class="text-2xl"></iconify-icon>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden flex flex-col items-center justify-center min-h-[90vh]">
+        <!-- Ambient Glow -->
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-fuchsia-600/10 blur-[120px] rounded-full pointer-events-none"></div>
+        <div class="absolute top-1/4 left-1/4 w-[400px] h-[400px] bg-orange-600/10 blur-[100px] rounded-full pointer-events-none"></div>
+        <img src="creav.jpeg" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover opacity-40">
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+           
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-semibold tracking-tighter leading-tight mb-6">
+                Où la <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 via-pink-500 to-orange-500">Créativité</span><br>
+                Devient Culture.
+            </h1>
+            <p class="text-base md:text-lg text-zinc-400 max-w-2xl mx-auto mb-10 font-light leading-relaxed">
+                Production d'événements artistiques majeurs, de festivals et d'expériences culturelles. Nous sommes les architectes de la culture de la jeunesse haïtienne moderne, alliant direction artistique haut de gamme et énergie brute.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#festivals" class="w-full sm:w-auto h-12 inline-flex items-center justify-center rounded-full bg-white text-zinc-950 px-8 text-sm font-semibold transition-transform hover:scale-105">
+                    Explorer les Festivals
+                </a>
+                <a href="#submit-art" class="w-full sm:w-auto h-12 inline-flex items-center justify-center rounded-full bg-transparent border border-white/20 text-white px-8 text-sm font-medium hover:bg-white/5 transition-colors gap-2">
+                    Soumettre une Œuvre <iconify-icon icon="solar:arrow-right-up-linear" stroke-width="1.5"></iconify-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 relative border-t border-white/5 bg-zinc-950/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-6">Valoriser la Créativité<br>Haïtienne.</h2>
+                    <p class="text-zinc-400 text-sm md:text-base leading-relaxed mb-6">
+                        Creative Brain est plus qu'une agence ; c'est une plateforme culturelle. Née en Haïti, notre mission est d'élever l'art local, de créer des expériences inoubliables et de combler le fossé entre les talents émergents et le public mondial.
+                    </p>
+                    <p class="text-zinc-400 text-sm md:text-base leading-relaxed mb-8">
+                        Notre vision est de devenir un mouvement créatif mondial, prouvant que l'innovation et la production culturelle haut de gamme peuvent prospérer et tirer leur origine de nos racines.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6 pt-6 border-t border-white/10">
+                        <div>
+                            <div class="text-3xl font-semibold tracking-tighter text-white mb-1">3+</div>
+                            <div class="text-xs text-zinc-500 uppercase tracking-widest">Festivals Majeurs</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-semibold tracking-tighter text-white mb-1">50K+</div>
+                            <div class="text-xs text-zinc-500 uppercase tracking-widest">Participants par An</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative h-[500px] rounded-3xl overflow-hidden border border-white/10">
+                    <img src="gao.jpeg" alt="Creative Event" class="absolute inset-0 w-full h-full object-cover opacity-100 transition-all duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-transparent"></div>
+                    <div class="absolute bottom-8 left-8 right-8">
+                        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-medium text-white">
+                            <iconify-icon icon="solar:users-group-rounded-linear" stroke-width="1.5"></iconify-icon> Propulsé par la Communauté
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Festivals Showcase -->
+    <section id="festivals" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-6 mb-16 text-center">
+            <h2 class="text-3xl md:text-5xl font-semibold tracking-tight mb-4">Nos Expériences</h2>
+            <p class="text-zinc-400 text-sm max-w-xl mx-auto">Trois mondes distincts. Une vision créative. Découvrez les festivals qui redessinent le paysage culturel.</p>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 space-y-32">
+            
+            <!-- ARTGASM FESTVAL -->
+            <div class="relative group">
+                <div class="absolute -inset-4 bg-gradient-to-r from-fuchsia-500/10 to-pink-500/10 blur-2xl rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start relative z-10">
+                    <div class="lg:col-span-5 pt-8">
+                        <div class="text-fuchsia-400 text-xs font-medium tracking-widest uppercase mb-3 flex items-center gap-2">
+                            <iconify-icon icon="solar:palette-linear" stroke-width="1.5"></iconify-icon> Arts Visuels & Immersion
+                        </div>
+                        <h3 class="text-4xl md:text-5xl font-semibold tracking-tight mb-4">Artgasm Festival</h3>
+                        <p class="text-zinc-400 text-sm leading-relaxed mb-8">
+                            Une expérience artistique immersive qui transcende les expositions traditionnelles. Artgasm mêle peinture, art numérique, installations massives et créativité interactive dans un voyage sensoriel. C'est un sanctuaire pour les artistes visuels repoussant les limites.
+                        </p>
+                        
+                        <!-- Mini Gallery -->
+                        <div class="flex gap-4 overflow-x-auto no-scrollbar pb-4 mb-8">                          
+                            <img src="artgasm1.1.jpeg" alt="Art 1" class="w-70 h-50 object-cover rounded-xl border border-white/10 flex-shrink-0">
+                            <img src="artgasm1.2.jpeg" alt="Art 2" class="w-70 h-50 object-cover rounded-xl border border-white/10 flex-shrink-0">
+                            <img src="artgasm1.3.jpeg" alt="Art 3" class="w-56 h-40 object-cover rounded-xl border border-white/10 flex-shrink-0">
+                        </div>
+                    </div>
+                    
+                    <!-- Artist Submission Form -->
+                    <div id="submit-art" class="lg:col-span-7 bg-zinc-900/50 backdrop-blur-sm border border-white/5 rounded-3xl p-8 lg:p-10 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-64 h-64 bg-fuchsia-500/10 blur-[80px] rounded-full pointer-events-none"></div>
+                        <h4 class="text-xl font-semibold tracking-tight mb-2">Soumission d'Artiste</h4>
+                        <p class="text-xs text-zinc-400 mb-8">Proposez votre œuvre pour la prochaine exposition Artgasm.</p>
+                        
+                        <form class="space-y-5 relative z-10">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                <div>
+                                    <label class="block text-xs font-medium text-zinc-400 mb-1.5 ml-1">Nom Complet</label>
+                                    <input type="text" placeholder="Jean Dupont" class="w-full bg-zinc-950/50 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500/50 transition-all">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-medium text-zinc-400 mb-1.5 ml-1">Adresse E-mail</label>
+                                    <input type="email" placeholder="jean@exemple.com" class="w-full bg-zinc-950/50 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500/50 transition-all">
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                <div>
+                                    <label class="block text-xs font-medium text-zinc-400 mb-1.5 ml-1">Numéro de Téléphone</label>
+                                    <input type="tel" placeholder="+509 XXXX XXXX" class="w-full bg-zinc-950/50 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500/50 transition-all">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-medium text-zinc-400 mb-1.5 ml-1">Type d'Œuvre</label>
+                                    <div class="relative">
+                                        <select class="w-full bg-zinc-950/50 border border-white/10 rounded-xl px-4 py-3 text-sm text-white appearance-none focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500/50 transition-all">
+                                            <option value="" disabled selected>Sélectionner une catégorie</option>
+                                            <option value="painting">Peinture / Beaux-Arts</option>
+                                            <option value="digital">Art Numérique / 3D</option>
+                                            <option value="installation">Installation Physique</option>
+                                            <option value="other">Autre</option>
+                                        </select>
+                                        <iconify-icon icon="solar:alt-arrow-down-linear" stroke-width="1.5" class="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-400 pointer-events-none"></iconify-icon>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-medium text-zinc-400 mb-1.5 ml-1">Description de l'Œuvre</label>
+                                <textarea rows="3" placeholder="Parlez-nous du concept, de l'échelle et de la vision..." class="w-full bg-zinc-950/50 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500/50 transition-all resize-none"></textarea>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-medium text-zinc-400 mb-1.5 ml-1">Portfolio ou Fichier de l'Œuvre</label>
+                                <div class="w-full border-2 border-dashed border-white/10 rounded-xl p-6 text-center hover:border-fuchsia-500/50 hover:bg-white/5 transition-all cursor-pointer group">
+                                    <iconify-icon icon="solar:cloud-upload-linear" stroke-width="1.5" class="text-3xl text-zinc-500 group-hover:text-fuchsia-400 mb-2 transition-colors"></iconify-icon>
+                                    <p class="text-xs text-zinc-400">Cliquez pour télécharger ou glissez-déposez</p>
+                                    <p class="text-[10px] text-zinc-600 mt-1">PDF, JPG, MP4 (Max 10MB)</p>
+                                    <input type="file" class="hidden">
+                                </div>
+                            </div>
+                            <button type="button" class="w-full h-12 rounded-xl bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white text-sm font-semibold hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+                                Soumettre la Proposition <iconify-icon icon="solar:plain-2-linear" stroke-width="1.5"></iconify-icon>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SUMSET & FLEVA GRID -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- SUMSET -->
+                <div class="group relative rounded-3xl overflow-hidden border border-white/10 bg-zinc-900/30 flex flex-col h-[600px]">
+                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent z-10"></div>
+                    <img src="weopp.jpeg" alt="Sumset Festival" class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-105 transition-transform duration-700 mix-blend-luminosity group-hover:mix-blend-normal group-hover:opacity-70">
+                    <div class="relative z-20 flex flex-col justify-end h-full p-8">
+                        <div class="text-orange-400 text-xs font-medium tracking-widest uppercase mb-2 flex items-center gap-2">
+                            <iconify-icon icon="solar:music-notes-linear" stroke-width="1.5"></iconify-icon> Musique & Ambiance
+                        </div>
+                        <h3 class="text-3xl font-semibold tracking-tight mb-3">Sumset Festival</h3>
+                        <p class="text-zinc-300 text-sm leading-relaxed mb-6 max-w-sm">
+                            L'ultime festival de musique lifestyle. Des programmations soignées mettant en vedette les meilleurs DJs, des artistes en direct et une ambiance de coucher de soleil inégalée. C'est là que le rythme rencontre l'horizon.
+                        </p>
+                        <div class="flex gap-2">
+                            <div class="w-10 h-10 rounded-full border border-white/20 overflow-hidden">
+                                <img src="weopp.jpeg">
+                            </div>
+                            <div class="w-10 h-10 rounded-full border border-white/20 overflow-hidden -ml-4">
+                                <img src="weopp.jpeg" class="w-full h-full object-cover">
+                            </div>
+                            <a href="#" class="inline-flex items-center gap-2 text-sm text-white font-medium hover:text-green-400 transition-colors w-fit">
+                            Explorer la Galerie <iconify-icon icon="solar:arrow-right-linear" stroke-width="1.5"></iconify-icon>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FLEVA CARNAVAL -->
+                <div class="group relative rounded-3xl overflow-hidden border border-white/10 bg-zinc-900/30 flex flex-col h-[600px]">
+                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent z-10"></div>
+                    <img src="flevaa.jpeg" alt="Fleva Carnaval" class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-105 transition-transform duration-700 mix-blend-luminosity group-hover:mix-blend-normal group-hover:opacity-70">
+                    <div class="relative z-20 flex flex-col justify-end h-full p-8">
+                        <div class="text-green-400 text-xs font-medium tracking-widest uppercase mb-2 flex items-center gap-2">
+                            <iconify-icon icon="solar:masks-linear" stroke-width="1.5"></iconify-icon> Culture Urbaine
+                        </div>
+                        <h3 class="text-3xl font-semibold tracking-tight mb-3">Fleva Carnaval</h3>
+                        <p class="text-zinc-300 text-sm leading-relaxed mb-6 max-w-sm">
+                            Une expérience de carnaval réimaginée. L'énergie de la rue, des racines culturelles profondes, la danse et l'expression urbaine vibrante se réunissant dans une célébration massive de la vie.
+                        </p>
+                        <a href="#" class="inline-flex items-center gap-2 text-sm text-white font-medium hover:text-green-400 transition-colors w-fit">
+                            Explorer la Galerie <iconify-icon icon="solar:arrow-right-linear" stroke-width="1.5"></iconify-icon>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 border-t border-white/5 bg-zinc-950/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-4">Ce Que Nous Faisons</h2>
+                <p class="text-zinc-400 text-sm">Au-delà des festivals, nous concevons des expériences.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="group relative rounded-3xl overflow-hidden border border-white/10 bg-zinc-900/30 flex flex-col h-[420px] transition-all hover:border-white/20 hover:shadow-2xl">
+                    <div class="absolute inset-0 service-bg-production bg-cover bg-center"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent z-10"></div>
+                    <div class="relative z-20 flex flex-col justify-end h-full p-8">
+                        <div class="text-orange-400 text-xs font-medium tracking-widest uppercase mb-3">Production</div>
+                        <h3 class="text-3xl font-semibold tracking-tight mb-4 text-white">Production d'Événements</h3>
+                         <img src="creav.jpeg" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover opacity-40">
+                        <p class="text-sm text-zinc-300 leading-relaxed max-w-md">Gestion de bout en bout d'événements à grande échelle, assurant une exécution sans faille du concept à la réalité.</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-3xl overflow-hidden border border-white/10 bg-zinc-900/30 flex flex-col h-[420px] transition-all hover:border-white/20 hover:shadow-2xl">
+                    <div class="absolute inset-0 service-bg-creative bg-cover bg-center"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent z-10"></div>
+                    <div class="relative z-20 flex flex-col justify-end h-full p-8">
+                        <div class="text-fuchsia-400 text-xs font-medium tracking-widest uppercase mb-3">Création</div>
+                        <h3 class="text-3xl font-semibold tracking-tight mb-4 text-white">Direction Créative</h3>
+                         <img src="blacc.jpeg" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover opacity-40">
+                        <p class="text-sm text-zinc-300 leading-relaxed max-w-md">Création d'identités visuelles et thématiques uniques qui résonnent profondément auprès des publics modernes.</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-3xl overflow-hidden border border-white/10 bg-zinc-900/30 flex flex-col h-[420px] transition-all hover:border-white/20 hover:shadow-2xl">
+                    <div class="absolute inset-0 service-bg-branding bg-cover bg-center"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent z-10"></div>
+                    <div class="relative z-20 flex flex-col justify-end h-full p-8">
+                        <div class="text-pink-400 text-xs font-medium tracking-widest uppercase mb-3">Marketing</div>
+                        <h3 class="text-3xl font-semibold tracking-tight mb-4 text-white">Branding & Marketing</h3>
+                         <img src="tabdj.jpeg" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover opacity-40">
+                        <p class="text-sm text-zinc-300 leading-relaxed max-w-md">Renforcer la pertinence culturelle par des campagnes stratégiques, une présence numérique et du storytelling.</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-3xl overflow-hidden border border-white/10 bg-zinc-900/30 flex flex-col h-[420px] transition-all hover:border-white/20 hover:shadow-2xl">
+                    <div class="absolute inset-0 service-bg-cultural bg-cover bg-center"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent z-10"></div>
+                    <div class="relative z-20 flex flex-col justify-end h-full p-8">
+                        <div class="text-emerald-400 text-xs font-medium tracking-widest uppercase mb-3">Culture</div>
+                         <img src="cult.jpeg" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover opacity-40">
+                        <h3 class="text-3xl font-semibold tracking-tight mb-4 text-white">Expériences Culturelles</h3>
+                        <p class="text-sm text-zinc-300 leading-relaxed max-w-md">Conception de pop-ups immersifs, d'activations de marque et d'espaces qui célèbrent la communauté.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / CTA / Contact -->
+    <footer id="contact" class="pt-24 pb-12 border-t border-white/5 relative overflow-hidden">
+        <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-white/5 blur-[100px] rounded-t-full pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
+                
+                <!-- CTA Text -->
+                <div id="work-with-us">
+                    <h2 class="text-4xl md:text-6xl font-semibold tracking-tighter mb-6">Construisons<br>la culture.</h2>
+                    <p class="text-zinc-400 text-sm leading-relaxed max-w-md mb-10">
+                        Que vous soyez une marque cherchant à se connecter avec la jeunesse, un artiste voulant mettre en valeur son talent, ou un visionnaire souhaitant s'associer.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4 text-sm text-zinc-300">
+                            <div class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center bg-white/5">
+                                <iconify-icon icon="solar:map-point-linear" stroke-width="1.5"></iconify-icon>
+                            </div>
+                            Port-au-Prince, Haïti
+                        </div>
+                        <div class="flex items-center gap-4 text-sm text-zinc-300">
+                            <div class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center bg-white/5">
+                                <iconify-icon icon="solar:letter-linear" stroke-width="1.5"></iconify-icon>
+                            </div>
+                            creativebrainofficialht@gmail.com
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-white/5 border border-white/10 rounded-3xl p-8 backdrop-blur-sm">
+                    <form class="space-y-4">
+                        <div class="grid grid-cols-2 gap-4">
+                            <input type="text" placeholder="Nom" class="w-full bg-zinc-950/50 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-white/30 transition-all">
+                            <input type="email" placeholder="E-mail" class="w-full bg-zinc-950/50 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-white/30 transition-all">
+                        </div>
+                        <div class="relative">
+                            <select class="w-full bg-zinc-950/50 border border-white/10 rounded-xl px-4 py-3 text-sm text-white appearance-none focus:outline-none focus:border-white/30 transition-all">
+                                <option value="" disabled selected>Sujet</option>
+                                <option value="partnership">Partenariat</option>
+                                <option value="sponsorship">Sponsoring</option>
+                                <option value="general">Demande Générale</option>
+                            </select>
+                            <iconify-icon icon="solar:alt-arrow-down-linear" stroke-width="1.5" class="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-500 pointer-events-none"></iconify-icon>
+                        </div>
+                        <textarea rows="4" placeholder="Votre message..." class="w-full bg-zinc-950/50 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-white/30 transition-all resize-none"></textarea>
+                        
+                        <div class="flex items-center justify-between pt-2">
+                            <label class="flex items-center gap-2 cursor-pointer group">
+                                <div class="relative w-4 h-4 rounded border border-white/20 bg-zinc-950/50 group-hover:border-white/40 flex items-center justify-center transition-colors">
+                                    <input type="checkbox" class="peer sr-only">
+                                    <iconify-icon icon="solar:check-read-linear" class="text-xs text-white opacity-0 peer-checked:opacity-100 transition-opacity"></iconify-icon>
+                                </div>
+                                <span class="text-xs text-zinc-500 group-hover:text-zinc-400 transition-colors">S'abonner à la newsletter</span>
+                            </label>
+                            <button type="button" class="h-10 px-6 rounded-xl bg-white text-zinc-950 text-xs font-semibold hover:bg-zinc-200 transition-colors">
+                                Envoyer le Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div<a href="#" class="text-lg font-semibold tracking-tighter text-white flex items-center gap-3">
+    <div class="w-10 h-10 rounded-full bg-white/10 border border-white/20 overflow-hidden flex items-center justify-center">
+        <img src="Creara.jpeg" alt="Creative Brain Logo" class="w-full h-full object-contain">
+    </div>
+    <span>CREATIVE BRAIN</span>
+</a>
+                
+                <div class="flex items-center gap-6">
+                    <a href="#" class="text-zinc-500 hover:text-white transition-colors"><iconify-icon icon="solar:camera-linear" stroke-width="1.5" class="text-xl"></iconify-icon></a>
+                    <a href="#" class="text-zinc-500 hover:text-white transition-colors"><iconify-icon icon="solar:play-circle-linear" stroke-width="1.5" class="text-xl"></iconify-icon></a>
+                    <a href="#" class="text-zinc-500 hover:text-white transition-colors"><iconify-icon icon="solar:letter-linear" stroke-width="1.5" class="text-xl"></iconify-icon></a>
+                </div>
+            </div>
+            <div class="text-center mt-8 text-[10px] text-zinc-600 uppercase tracking-widest">
+                &copy; 2024 Creative Brain Haïti. Tous droits réservés.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
